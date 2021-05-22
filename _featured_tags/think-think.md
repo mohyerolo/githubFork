@@ -4,5 +4,5 @@ title: Think
 slug: think
 category: think
 menu: false
-order: 1
+order: 2
 ---

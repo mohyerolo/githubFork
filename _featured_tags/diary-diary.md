@@ -4,5 +4,5 @@ title: Diary
 slug: diary
 category: diary
 menu: false
-order: 5
+order: 4
 ---
