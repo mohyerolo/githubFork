@@ -4,7 +4,7 @@ title: Think
 slug: think
 menu: true
 submenu: false
-order: 1
+order: 2
 description: >
-  살면서 깨달은 아이디어 및 지혜, IT에 관련된 생각, 그리고 평소 쓰고 싶었던 글.  
+  무언가에 대해 떠오른 나의 생각 또는 잡동사니
 ---
