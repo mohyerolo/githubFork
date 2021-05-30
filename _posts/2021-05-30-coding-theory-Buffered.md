@@ -1,0 +1,62 @@
+---
+layout: post
+categories: coding
+tags: theory
+comments: true
+title: "[Java] BufferedReader/BufferedWriter"
+---
+## BufferedReader/BufferedWriter
+<hr>
+버퍼를 이용해 읽고 쓰는 함수
+Scanner보다 입출력의 효율이 훨씬 좋음
+    
+버퍼링 없이 키보드가 눌릴 때마다 문자가 전달되면 버퍼에 모았다가 전달하는 것보다 비효율적.
+Buffer사용하면 IOException 처리를 별도로 해줘야 함. (throws Exception)
+* 버퍼를 이용한 입력: BufferedReader
+* 버퍼를 이용한 출력: BufferedWriter
+
+#### BufferedReader
+* Scanner: 띄어쓰기와 개행문자를 경계로 입력 값 인식 -> 따로 가공할 필요가 없음
+* BufferedReader: 개행문자만 경계로 인식. 받은 데이터가 String으로 고정 -> 데이터 가공 필요. but Scanner에 비해 상대적으로 빠름
+    
+_입력 스트림에서 문자를 읽는 함수인데 문자나 배열, 라인들을 효율적으로 읽기 위해서 문자들을 버퍼에 저장하고 읽음. 버퍼 사이즈는 지정하거나 디폴트 사이즈를 사용.
+-> 많은 데이터를 입력받아야 할 상황에서는 BufferedReader 사용_
+
+```java
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+StringBuilder sb = new StringBuilder();
+
+int n = Integer.parseInt(br.readLine()); // 한 줄을 읽어서 String으로 반환
+
+br.close(); // 입출력이 끝난 후 입력스트림을 닫고 사용하던 자원을 풀어줌
+```
+위와 같은 식으로 문자를 받아온다. 받은 문자를 나누기 위해서는 StringTokenizer의 nextToken함수를 이용하거나 String 클래스의 split함수를 이용하면 된다.
+
+#### BufferedWriter
+* System.out.println(): 함수가 문자열 출력(write())과 개행(newLine())을 동시에 해줌. 시스템 리소스를 필요 이상으로 잡아먹는다는 한계가 존재. OS의 콘솔을 활성화 시키면서 CPU 리소스를 점유.
+* BufferedWriter: 버퍼에 저장된 문자를 출력. System.out.println처럼 함수가 문자열 출력과 개행을 동시에 해주지 않기 때문에 개행을 하려면 write에 "\n"을 넣어주거나 newLine()함수 사용
+
+
+```java
+import java.io.BufferedWriter;
+import java.io.OutputStreamWriter;
+ 
+public class BufferedWriterTest {
+    public static void main(String[] args) throws Exception {
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+ 
+        bw.write("Hello World!"); //BufferedWriter 객체를 이용해 출력
+ 
+        // write한다고 해서 바로바로 출력되지 않음
+        // 직접 출력 stream에 반영되는 것이 아니라 성능을 위해 buffer에 저장해두었다가
+        // BufferedWriter가 flush되거나 close되었을 때 한번에 출력 stream에 반영하기 때문
+        bw.flush();
+ 
+        // close는 stream을 닫아버리기 때문에 계속 출력하고자 한다면 flush 사용
+        // bw.close();
+
+        bw.newLine();
+        bw.close();
+    }
+}
+```
