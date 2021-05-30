@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Baekjoon
-slug: baekjoon
+title: Theory
+slug: theory
 category: coding
 menu: false
-order: 2
+order: 1
 ---
