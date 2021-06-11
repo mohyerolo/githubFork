@@ -44,6 +44,7 @@ if - else만을 이용한 풀이와 삼항연산자를 이용한 풀이이다.
 - 삼항연산자: (조건문) ? true일때의 값 : false일때의 값;
     
 알고는 있었는데 중첩으로 만들 수 있다는 걸 이번에 블로그를 보면서 알게됐다.
+![image](https://user-images.githubusercontent.com/68698007/121683892-f4a3ae80-caf8-11eb-8567-a2779a89a728.png)    
     
 2. Buffer    
 
@@ -70,4 +71,6 @@ public class Step4_1330_2 {
 }
 
 ```    
+![image](https://user-images.githubusercontent.com/68698007/121683960-08e7ab80-caf9-11eb-9078-7c77ecdd8510.png)
+
 이렇게 하니 확실하게 메모리와 시간이 줄어든걸 알 수 있었다.
