@@ -26,7 +26,7 @@ author:
   email:             garam2101@naver.com
 
 # Fallback image and color
-image:               #/assets/img/purple.png
+image:               /assets/img/b6e0dc.png
 color:               '#b6e0dc'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.

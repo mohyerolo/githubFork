@@ -1,9 +1,9 @@
 ---
+title: "[Java] BufferedReader/BufferedWriter"
 layout: post
 categories: coding
 tags: theory
 comments: true
-title: "[Java] BufferedReader/BufferedWriter"
 ---
 ## BufferedReader/BufferedWriter
 <hr>
