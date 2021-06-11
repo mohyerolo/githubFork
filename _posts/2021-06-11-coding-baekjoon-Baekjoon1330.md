@@ -12,7 +12,7 @@ if문 단계에 해당하는 1330문제는 예전에 풀었지만 처음부터 �
      
 근데 예전에 Scanner만 알던 때와는 다르게 이렇게 간단한 문제여도 Buffer를 사용할수도 있다는 게 생각나서 약간 기분이 좋게 시작했다.    
 
-1. Scanner    
+#### 1. Scanner    
 
 ```java
 package Step4;
@@ -47,7 +47,7 @@ if - else만을 이용한 풀이와 삼항연산자를 이용한 풀이이다.
 
 ![image](https://user-images.githubusercontent.com/68698007/121683892-f4a3ae80-caf8-11eb-8567-a2779a89a728.png)    
     
-2. Buffer    
+#### 2. Buffer    
 
 버퍼로 입력된 수를 받아오는 방법으로 StringTokenizer를 이용해 띄어쓰기를 구분할 것이다.
 
