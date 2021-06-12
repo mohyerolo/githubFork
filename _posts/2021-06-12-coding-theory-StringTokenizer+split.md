@@ -1,5 +1,5 @@
 ---
-title: "[Java]StringTokenizer와 split()"
+title: "[Java] StringTokenizer와 split()"
 layout: post
 categories: coding
 tags: theory
