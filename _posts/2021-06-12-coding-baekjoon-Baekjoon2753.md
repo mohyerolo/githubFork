@@ -36,10 +36,10 @@ public class Step4_2753_1 {
 }
 ```
 
-- if-else 사용
+- if-else 사용    
 ![image](https://user-images.githubusercontent.com/68698007/121769260-8b29ab80-cb9d-11eb-9a15-4c7eb073447a.png)
 <br>    
-- 삼항연산자 사용
+- 삼항연산자 사용    
 ![image](https://user-images.githubusercontent.com/68698007/121769288-b2807880-cb9d-11eb-9bce-98475a178e44.png)
     
 두 개도 약간의 차이는 있는데 미세하다.    
