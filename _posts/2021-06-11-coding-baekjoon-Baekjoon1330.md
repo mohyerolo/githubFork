@@ -48,6 +48,7 @@ if - else만을 이용한 풀이와 삼항연산자를 이용한 풀이이다.
 ![image](https://user-images.githubusercontent.com/68698007/121683892-f4a3ae80-caf8-11eb-8567-a2779a89a728.png)    
     
 <br>
+
 #### 2. Buffer    
 
 버퍼로 입력된 수를 받아오는 방법으로 StringTokenizer를 이용해 띄어쓰기를 구분할 것이다.
