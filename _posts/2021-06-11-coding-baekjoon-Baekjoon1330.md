@@ -1,7 +1,7 @@
 ---
 title: 백준 1330(두 수 비교하기)
 categories: coding
-tags: baekjoon, if
+tags: baekjoon if
 comments: true
 layout: post
 ---
