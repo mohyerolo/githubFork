@@ -58,7 +58,9 @@ public class Step3_10950_2 {
 ```    
 
 <br>
-#### 2. BufferedReader, StringTokenizer
+
+#### 2. BufferedReader, StringTokenizer    
+
 ```java
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -86,7 +88,9 @@ public class Step3_10950_3 {
 ```    
 StringTokenizer로 한 줄 씩 읽을때마다 띄어쓰기를 기준으로 분리시켜 StringBuilder로 저장했다.     
 
-#### 3. BufferedReader, split
+
+#### 3. BufferedReader, split    
+
 ```java
 package Step3;
 
