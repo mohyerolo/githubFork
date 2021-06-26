@@ -58,9 +58,10 @@ sequence를 수정__ 하는 것이라 훨씬 빠르게 작동할 수 있다. (�
 <br><br>
 
 ### StringBuilder와 StringBuffer의 차이
-|StringBuilder|StringBuffer|
-|-----|-----|
-동기화 지원 X<br> -> 멀티 쓰레드 환경 적합 X, 단일 쓰레드 환경|동기화 지원 O<br> -> 멀티 쓰레드 환경 적합 O|
+| StringBuilder | StringBuffer |
+|-------|-------|
+| 동기화 지원 X<br> -> 멀티 쓰레드 환경 적합 X, 단일 쓰레드 환경 | 동기화 지원 O<br> -> 멀티 쓰레드 환경 적합 O |    
+
 
 그러나 쓰레드 환경이 아닌 이상은 StringBuilder가 성능이 뛰어나 StringBuilder를 사용하면 된다.    
 StringBuffer 자료형은 String 자료형보다 무거운 편에 속한다. new로 객체를 생성하는 것은 일반 String을 사용하는 것보다
