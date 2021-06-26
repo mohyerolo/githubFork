@@ -58,7 +58,7 @@ public class Step3_10950_2 {
 ```    
 
 <br>
-#### 2. BufferReader
+#### 2. BufferedReader, StringTokenizer
 ```java
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -85,10 +85,39 @@ public class Step3_10950_3 {
 }
 ```    
 StringTokenizer로 한 줄 씩 읽을때마다 띄어쓰기를 기준으로 분리시켜 StringBuilder로 저장했다.     
-그런데 StringTokenizer를 사용하는게 아닌 subString으로도 분리가 가능할 것 같은데 두 개의 성능차이가 어떻게 되는지 한 번 알아봐야겠다.
+
+#### 3. BufferedReader, split
+```java
+package Step3;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Step3_10950_4 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int T = Integer.parseInt(br.readLine());
+
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = 0; i < T; i++) {
+            String str = br.readLine();
+            String[] arr = str.split(" ");
+            sb.append(Integer.parseInt(arr[0]) + Integer.parseInt(arr[1])).append("\n");
+        }
+
+        System.out.println(sb);
+    } 
+}
+
+```    
+StringTokenizer대신 split으로 분리를 해서 배열에 저장된거를 더해봤다. 시간은 StringTokenizer를 사용한 것과 똑같았다.    
+
 <br>
 ![image](https://user-images.githubusercontent.com/68698007/122888635-fe40d800-d37c-11eb-8dee-73b04e0de458.png)
 1. Scanner, 배열 사용
-2. BufferedReader
+2. BufferedReader, StringTokenizer
 3. Scanner, 입력과 동시에 출력
 
