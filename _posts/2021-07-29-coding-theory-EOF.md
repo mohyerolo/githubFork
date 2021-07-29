@@ -29,7 +29,7 @@ public static void main(String[] args) {
 Scanner에서는 EOF가 발생하면 NoSuchElementException이라는 예외가 발생한다.    
 이런 예외는 try-catch문으로 종료 처리를 해주거나 Scanner의 hasNext(), hasNextInt()등과 같은 메소드를 통해 처리해주면 된다.    
 
-#### BufferedReader
+### BufferedReader
 ```java
 public static void main(String[] args) {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
