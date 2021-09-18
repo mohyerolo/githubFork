@@ -77,7 +77,7 @@ public class Step6_2577_2 {
 
 
 #### 3
-`` java
+```java
 import java.io.*;
 
 public class Main {
