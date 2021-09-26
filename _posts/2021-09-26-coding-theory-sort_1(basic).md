@@ -233,7 +233,8 @@ public class InsertionSort {
 ```
 <br>
 
-시간복잡도: O(n<sup>2</sup>), O(n)
+시간복잡도: O(n<sup>2</sup>), O(n)    
+
 첫 번째 for문은 n - 1번 순환한다. 매 for문에서 while은 최대 i - 1번 순환한다. 가장 운이 나쁘면 A[i]가 A[0]의 자리에 들어가게 되어 
 i - 1번의 순환이 필요하다. 가장 운이 좋으면 A[i]가 제자리에 있게되어 while루프는 한 번도 수행되지 않는다.    
 <br>
