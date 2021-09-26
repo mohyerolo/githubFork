@@ -14,7 +14,7 @@ tags: theory
 [2. 버블 정렬 (Bubble Sort)](#2.-버블-정렬-(bubble-sort))    
 [3. 삽입 정렬 (Insertion Sort)](#3.-삽입-정렬-(insertion-sort))
 
-### <mark style='background-color: #fff5b1'> 1. 선택 정렬 (Selection Sort) </mark>   
+### 1. 선택 정렬 (Selection Sort)
 
 선택 정렬은 원리가 간단한 정렬 알고리즘 중 하나다.
 - 입력에 민감하지 않음
@@ -90,7 +90,7 @@ __정렬 알고리즘의 안정성__ 이란 동일한 키 값을 갖는 레코�
 
 <br><br>
 
-### <mark style='background-color: #fff5b1'> 2. 버블 정렬(Bubble Sort) </mark> 
+### 2. 버블 정렬(Bubble Sort)
 
 버블 정렬은 제일 큰 원소를 끝자리로 옮기는 작업을 반복한다.    
 선택 정렬과 다른 점은 선택 정렬이 가장 큰 수를 찾은 다음 맨 오른쪽 수와 바꾸는 반면, 버블 정렬은 왼쪽부터 이웃한 수를 비교하면서 순서가 제대로 되어 있지 않으면 하나하나 바꾸어나간다.     
@@ -197,7 +197,7 @@ false로 바뀌어 알 수 있게된다. 두 번째 for문을 나왔는데도 �
 
 <br><br>
 
-### <mark style='background-color: #fff5b1'> 3. 삽입 정렬(Insertion Sort) </mark>
+### 3. 삽입 정렬(Insertion Sort)
 
 삽입 정렬은 __이미 정렬되어 있는 i개 짜리 배열__ 에 하나의 원소를 더 더하여 정렬된 i + 1개짜리 배열을 만드는 과정을 반복한다.
 
