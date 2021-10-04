@@ -176,6 +176,7 @@ public class QuickSort_right {
 ```
 
 2. 블로그에서 본 방법
+
 ```java
 public class QuickSort_right2 {
     private static void swap(int[] a, int i, int j) {
@@ -227,6 +228,7 @@ public class QuickSort_right2 {
     }
 }
 ```
+<br>
 
 ### <mark style='background-color: #fff5b1'>중간 pivot 선택</mark>
 1. 블로그에서 본 방법
@@ -282,7 +284,7 @@ public class QuickSort_mid {
 }
 ```
 
-<br>
+<br><br>
 시간복잡도: Θ(nlogn)    
 <br>
 시간복잡도가 왜 Θ(nlogn)가 나오는지는 
