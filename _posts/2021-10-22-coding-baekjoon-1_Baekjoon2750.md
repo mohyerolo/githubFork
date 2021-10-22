@@ -17,6 +17,7 @@ N개의 수가 주어지고 정렬하기만 하면 되므로 복잡한 과정은
 <br>
 
 1. Arrays.sort()
+
 ```java
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -51,6 +52,7 @@ Arrays.sort()를 사용해봤다. 객체가 아닌 경우에는 dual-pivot quick
 <br>
 
 2. Selection Sort
+
 ```java
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -102,6 +104,7 @@ public class Step9_2750_2 {
 <br>
 
 3. Insertion Sort
+
 ```java
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -146,6 +149,7 @@ public class Step9_2750_3 {
 <br>
 
 4. Counting Sort
+
 ```java
 import java.io.BufferedReader;
 import java.io.IOException;
