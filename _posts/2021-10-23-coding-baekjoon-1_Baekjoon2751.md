@@ -26,7 +26,7 @@ Arrays.sort()는 달라진 점이 없으니 코드는 생략하겠다.
 
 <br>
 
-7. Counting Sort
+#### 7. Counting Sort
 ```java
 import java.io.*;
 
@@ -59,7 +59,7 @@ public class Main {
 사실 백만개정도되면 Counting Sort도 안되지 않을까 싶었는데 이정도까지는 괜찮은가보다.    
 
 
-8. Collections.sort()
+#### 8. Collections.sort()
 ```java
 import java.io.*;
 import java.util.ArrayList;
