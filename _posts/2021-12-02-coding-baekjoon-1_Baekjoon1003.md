@@ -60,7 +60,7 @@ Fibo(3) = Fibo(2) + (1)이다.
 
 Fibo(2) = Fibo(1) + Fibo(0)으로 결국 Fibo(3) = {Fibo(1) + Fibo(0)} + Fibo(1)이 된다.    
 
-Fibo(4) = Fibo(3) + Fibo(2) = {Fibo(2) + Fibo(1)} + {Fibo(1) + Fibo(0)} = {{Fibo(1) + Fibo(0)} + Fibo(1)} + {Fibo(1) + Fibo(0)}이 된다.    
+Fibo(4) = Fibo(3) + Fibo(2) = {Fibo(2) + Fibo(1)} + {Fibo(1) + Fibo(0)} = '((Fibo(1) + Fibo(0))+ Fibo(1)) + {Fibo(1) + Fibo(0)}이 된다.    
 
 이는 결국, Fibo[N]의 0과 1의 호출은 <mark style='background-color: #fff5b1'>Fibo[N - 1]의 0과 1의 호출 + Fibo[N - 2]의 0과 1 호출 개수</mark>가 된다는 것이다. 이를 재귀적으로 풀이하면
 
