@@ -6,5 +6,5 @@ menu: true
 submenu: true
 order: 1
 description: >
-  개발자가 되기 위한 나의 노력
+  오늘도 뚠뚠 개미는 뚠뚠 열심히 일을 하네 뚠뚠
 ---
